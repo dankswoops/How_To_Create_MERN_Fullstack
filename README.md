@@ -35,6 +35,10 @@ Create readme for the project
 
     touch README.md
 
+Create gitignore
+
+    touch .gitignore
+
 Create the folder
 
     mkdir fullstack
@@ -202,7 +206,7 @@ Installing Tailwind 2
 
 Removing the garbage files
 
-    rm public/logo192.png public/logo512.png public/manifest.json public/robots.txt src/App.css src/logo.svg src/serviceWorker.ts src/setupTests.ts src/reportWebVitals.ts src/react-app-env.d.ts src/App.test.tsx .gitignore README.md
+    rm public/logo192.png public/logo512.png public/manifest.json public/robots.txt src/App.css src/logo.svg src/setupTests.ts src/reportWebVitals.ts src/react-app-env.d.ts src/App.test.tsx .gitignore README.md
 
 Update `tailwind.config.js`
 
@@ -312,14 +316,9 @@ Sometimes it's orgin main, you got to read..
 Enter username and password. You will likely not be able to use your password and instead need a github token that you can create [HERE](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)
 
 ### After the push
-In your project root folder with fullstack create a .gitignore file in the project root and make the file contain 
-
-    touch .gitignore
-
 Update `.gitignore`
 
-    node_modules
-    /node_modules
+    node_modules/
 
 Push one more time with add, commit, and push
 

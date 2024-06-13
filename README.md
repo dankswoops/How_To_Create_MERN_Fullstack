@@ -105,7 +105,7 @@ Updating `package.json`
         }
     }
 
-Installing Nodemon glonally
+Installing Nodemon globally
 
     npm i -g nodemon
 
